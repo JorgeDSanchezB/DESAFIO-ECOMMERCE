@@ -1,0 +1,60 @@
+.banner{
+    display: flex;
+    background-image: url('/img/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction:column;
+    height: 192px;
+    justify-content: flex-end;
+    
+}
+
+.caja-texto-banner{
+    display:flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin: 0 0 5% 4%;
+    justify-content: left;
+}
+
+
+.texto__banner-titulo{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    align-self: stretch;
+    padding-bottom: 5%;
+}
+
+.texto__banner-contenido{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    align-self: stretch;    
+}
+
+.ver-ofertas{
+    color: #FFFFFF;
+    align-self:flex-start;
+    background-color: #2A7AE4;
+    border-color: #2A7AE4;    
+}
+
+@media screen and (min-width: 768px) {
+    .banner{
+        height: 352px;
+    }
+    .texto__banner-titulo{
+        font-size: 52px;
+        line-height: 61.05px;
+    }
+    .texto__banner-contenido{
+        font-size: 22px;
+        line-height: 25.83px;  
+    }
+
+}
+@media screen and (min-width: 1440px) {
+
+}

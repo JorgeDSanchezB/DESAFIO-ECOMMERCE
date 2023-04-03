@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Generic ECommerce</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/banner.css">
+        <link rel="stylesheet" href="css/galeria.css">
+        <link rel="stylesheet" href="css/formulario-footer.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    </head>
+    <body>
+        <header>
+            <section class="head">
+                <div class="logo">
+                    <img src="img/icono-logo.svg" alt="Logo-empresa">
+                    <h3 class="nombre__empresa"><span class="nombre__empresa-primera-palabra">Nombre</span>Empresa</h3>
+                </div>
+                <div class="barra-buscar">
+                    <input type="text" class="input-buscar" placeholder="¿Qué deseas buscar?">
+                    <img class="icono-buscar" src="img/icono-buscar.svg" alt="Buscar">
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="galeria">
+                <div class="galeroa-caja-titulo">
+                    <h2 class="galeria__titulo">Todos los productos</h2>
+                    <a class="boton agregar-producto" href="agregar-producto.html">Agregar producto</a>
+                </div>
+                <ul class="galeria__lista">
+                    <li class="galeria__item">
+                        <img class="galeria-imagen" src="img/producto1.png" alt="">
+                        <h3 class="item__titulo">Producto XYZ</h3>
+                        <p class="item__texto">$60.00</p>
+                        <a class="item__link" href="#">Ver producto</a>
+                    </li>
+                    <li class="galeria__item">
+                        <img class="galeria-imagen" src="img/producto2.png" alt="">
+                        <h3 class="item__titulo">Producto XYZ2</h3>
+                        <p class="item__texto">$70.00</p>
+                        <a class="item__link" href="#">Ver producto</a>
+                    </li>
+                    <li class="galeria__item">
+                        <img class="galeria-imagen" src="img/producto2.png" alt="">
+                        <h3 class="item__titulo">Producto XYZ2</h3>
+                        <p class="item__texto">$70.00</p>
+                        <a class="item__link" href="#">Ver producto</a>
+                    </li>
+                    <li class="galeria__item">
+                        <img class="galeria-imagen" src="img/producto2.png" alt="">
+                        <h3 class="item__titulo">Producto XYZ2</h3>
+                        <p class="item__texto">$70.00</p>
+                        <a class="item__link" href="#">Ver producto</a>
+                    </li>
+                    <li class="galeria__item">
+                        <img class="galeria-imagen" src="img/producto2.png" alt="">
+                        <h3 class="item__titulo">Producto XYZ2</h3>
+                        <p class="item__texto">$70.00</p>
+                        <a class="item__link" href="#">Ver producto</a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <form class="formulario-contacto">
+                <fieldset class="formulario-links">
+                    <div class="logo logo-bottom">
+                        <img src="img/icono-logo.svg" alt="Logo-empresa">
+                        <h3 class="nombre__empresa"><span class="nombre__empresa-primera-palabra">Nombre</span>Empresa</h3>
+                    </div>
+                    <ul class="formulario-lista">
+                        <li><a href="#" class="formulario__contacto">Quienes somos</a></li>
+                        <li><a href="#" class="formulario__contacto">Política de privacidad</a></li>
+                        <li><a href="#" class="formulario__contacto">Programa de fidelidad</a></li>
+                        <li><a href="#" class="formulario__contacto">Nuestras Tiendas</a></li>
+                        <li><a href="#" class="formulario__contacto">Quiero ser franquisiado</a></li>
+                        <li><a href="#" class="formulario__contacto">Anúncie aquí</a></li>
+                    </ul>
+                </fieldset>
+                <fieldset class="formulario-cuadros">
+                    <legend class="formulario-texto" >Habla con nosotros</legend>
+                    <div class="elemento-contactanos">
+                        <label for="input-nombre" class="etiqueta-nombre">Nombre</label><input type="text" id="input-nombre" class="input-nombre"required>
+                    </div>
+                    <div class="elemento-contactanos elemento-contactanos-mensaje">
+                        <label for="input-mensaje" class="etiqueta-mensaje">Escribe tu mensaje</label><textarea name="" id="input-mensaje" cols="40" rows="3" class="input-mensaje" required></textarea>
+                    </div>
+                    <button class="boton enviar-mensaje">Enviar mensaje</a>
+                </fieldset>
+            </form>
+            <section class="footer-caja">
+                <h2 class="footer-texto">Desarrollado por Jorge Sanchez</h2>
+            </seccion>
+        </footer>
+    </body>
+</html>

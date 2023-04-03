@@ -1,0 +1,14 @@
+.footer-caja{
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-texto{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #464646;
+}

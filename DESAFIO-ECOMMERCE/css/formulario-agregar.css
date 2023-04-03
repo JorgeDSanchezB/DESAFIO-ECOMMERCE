@@ -1,0 +1,71 @@
+.formulario-agregar{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background: #E5E5E5;
+    padding: 10px 0;
+    gap:10px;
+}
+.elemento-agregar{
+    height: 36px;
+    width: 318px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    background: #FFFFFF;
+    
+}
+
+.elemento-agregar-area{
+    height: 76px;   
+}
+
+.etiqueta-agregar{
+    height: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+}
+
+.input-agregar{
+    border: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+}
+
+
+
+.input-area-agregar {
+    border: none;
+    resize: none;
+}
+
+.agregar-producto-btn{
+    align-items: center;
+    margin: 0;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    border-color: #2A7AE4;  
+}
+
+@media screen and (min-width: 768px) {
+    .elemento-agregar{
+        width: 704px;
+        
+    }
+    
+
+}  
+@media screen and (min-width: 1440px) {
+    .input-correo, .input-contrasenha{
+        
+        width: 559px;
+    }
+}

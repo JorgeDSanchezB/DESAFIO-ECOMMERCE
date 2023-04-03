@@ -1,0 +1,60 @@
+.head{
+    display: flex;
+    justify-content:space-between;
+    margin: 3% 3%;
+}
+
+.nombre__empresa{
+    padding-left: 5px;
+    font-size:0.8rem;
+}
+.nombre__empresa-primera-palabra{
+    color:#2A7AE4;
+}
+
+.login{
+    justify-content: left;
+    color: #2A7AE4;
+    border-color: #2A7AE4;
+}
+
+.barra-buscar{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.input-buscar{  
+    display:none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .login{
+        order: 2;
+    }
+    .input-buscar{   
+        display:flex;
+        align-items: center;
+        padding: 8px 16px;
+        background: #F5F5F5;
+        border-radius: 20px;
+        border-color: black;
+        width: 272px;
+    }
+
+    .barra-buscar {
+        position: relative;
+      }
+      
+      .icono-buscar {
+        position: absolute;
+        right: 10px;
+        top: 8px;
+      }
+}
+@media screen and (min-width: 1440px) {
+    .input-buscar{   
+        width: 393px;
+    }
+
+}
